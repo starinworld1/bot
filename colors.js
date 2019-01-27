@@ -2662,6 +2662,4 @@ client.on('message', async message => {
 	    }
 	    }
 });
-
-
-	client.login('NTM4MDQxNjgxNzQwODI0NTg5.DyuCNQ.azJupAV3V9PmMhIinJkrkTzDwtw');
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
